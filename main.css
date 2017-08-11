@@ -1,0 +1,173 @@
+html, body, div, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background: #e5e1df;
+}
+
+header {
+	background: #49423a;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 0;
+  margin: 0;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+nav {
+  background: #49423a;
+  font-family: sans-serif;
+  color: #e4d7c5;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  padding: 20px 5px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul {
+  padding: 5px;
+  margin: 0;
+  color: #ffffff;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 0px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+  transition-duration: 2s;
+}
+
+a:hover {
+  color: #fbb535;
+  transition-duration: .1s;
+}
+
+.robins {
+	background: #6fcbd5;
+}
+
+.yellow {
+	background: #fbb535;
+}
+
+.red {
+	background: #df4b35;
+}
+
+.beige {
+	background: #ccbeac;
+}
+
+.brown {
+	background: #49423a;
+}
+
+.mint {
+	background: #a1d082;
+}
+
+section {
+  font: normal 100% Helvetica, sans-serif;
+  padding: 60px 0 60px 0;
+  width: 25%;
+  float: left;
+
+}
+
+section p {
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 0.1em;
+  margin: 0 20px;
+  height: 50px;
+  text-align: left;
+}
+
+p {
+  clear: both;
+}
+
+h1 {
+  color: white;
+  letter-spacing: .1em;
+  display: inline;
+  text-align: left;
+}
+
+h2{
+  color: white;
+  letter-spacing: .2em;
+  border-bottom: 2px solid white;
+  text-align: left;
+  margin: 40px 20px 0 20px;
+}
+
+.main-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+
+.line-icon {
+  margin: 15px;
+  border-bottom: 2px solid white;
+}
+
+.line-icon img {
+  float: right;
+  position: relative;
+  border-left: 2px solid white;
+  padding-left: 15px;
+  bottom: 15px;
+}
+
+.logo {
+  background-color: #e5e1df;
+  width: 200%;
+  text-align: center;
+  display: inline-block;
+  clear: both;
+
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+#logo {
+  padding: 0px;
+}
+
+section .logo {
+  margin: 0px;
+}
+
+footer {
+	background: #49423a;
+  color: #ffffff;
+	font-family: sans-serif;
+	text-align: center;
+	width: 100%;
+  z-index: 10;
+  padding: 15px 5px 45px 5px;
+}
+
+footer p {
+  padding: 30px 20px;
+  letter-spacing: .1em
+}
