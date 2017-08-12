@@ -127,10 +127,10 @@ h2{
 
 /* Wiggle code added here*/
 .main-image:hover {
-  -ms-animation:wiggle .5s 3;
-  -moz-animation:wiggle .5s 3;
-  -webkit-animation:wiggle .5s 3;
-  animation:wiggle .5s 3;
+  -ms-animation:wiggle .2s 3;
+  -moz-animation:wiggle .2s 3;
+  -webkit-animation:wiggle .2s 3;
+  animation:wiggle .2s 3;
 }
 
 @-ms-keyframes wiggle{0%{-ms-transform:rotate(5deg);}50%{-ms-transform:rotate(-5deg);}100%{-ms-transform:rotate(5deg);}}
